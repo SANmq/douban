@@ -1,0 +1,8 @@
+/* 设置共同输入框样式 */
+input {
+    border: 1px solid #c7c1be;
+}
+
+input:focus {
+    outline-style: none;
+}
