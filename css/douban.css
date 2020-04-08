@@ -1,16 +1,23 @@
 .topbar {
-    width: 1188px;
+    width: 1348px;
     margin: 0 auto;
+
 }
 
 .topbar .icon {
     width: 154px;
     height: 30px;
     display: inline-block;
-    color: transparent;
     background: url(../img/logo_db.png) no-repeat 100% 100%;
     margin-top: 30px;
+    margin-left: 133px;
     vertical-align: bottom;
+}
+.topbar .icon a{
+    width: 154px;
+    height: 30px;
+    color: transparent;
+    display: inline-block;
 }
 
 .topbar .search {
@@ -30,12 +37,19 @@
 .topbar .search .icon1 {
     width: 30px;
     height: 30px;
-    background-color: yellow;
     position: absolute;
     right: 1px;
     top: 1px;
     cursor: pointer;
+    text-align: center;
+    padding: 9px 0;
+
 }
+.topbar .search .icon1 img{
+    width: 12px;
+    height: 12px;
+}
+
 
 .topbar .search input::placeholder {
     color: #cccbc1;
@@ -47,7 +61,11 @@
     vertical-align: bottom;
 }
 
-.topbar .nav a {
+.topbar .nav ul li{
+    float: left;
+}
+
+.topbar .nav ul li a {
     width: 40px;
     height: 20px;
     float: left;
@@ -55,3 +73,101 @@
     margin-right: 16px;
     margin-top: 6px;
 }
+
+.topbar .nav ul li:nth-child(1) a{
+    background: url('../img/anony_nav_logo.png') no-repeat;
+}
+
+.topbar .nav ul li:nth-child(2) a{
+    background: url('../img/anony_nav_logo.png') no-repeat;
+    background-position-x: -60px;
+}
+
+.topbar .nav ul li:nth-child(3) a{
+    background: url('../img/anony_nav_logo.png') no-repeat;
+    background-position-x: -120px;
+}
+
+.topbar .nav ul li:nth-child(4) a{
+    background: url('../img/anony_nav_logo.png') no-repeat;
+    background-position-x: -300px;
+}
+
+.topbar .nav ul li:nth-child(5) a{
+    background: url('../img/anony_nav_logo.png') no-repeat;
+    background-position-x: -180px;
+}
+
+.topbar .nav ul li:nth-child(6) a{
+    background: url('../img/ic_read_home_nav.png') no-repeat;
+}
+
+.topbar .nav ul li:nth-child(7) a{
+    background: url('../img/anony_nav_logo.png') no-repeat;
+    background-position-x: -240px;
+}
+
+.topbar .nav ul li:nth-child(8) a{
+    background: url('../img/ic_shijian_home_nav.png') no-repeat;
+    height: 21px;
+    margin-top: 5px;
+}
+.topbar .nav ul li:nth-child(9) a{
+    background: url('../img/anony_nav_logo.png') no-repeat;
+    width: 43px;
+    background-position-x: -420px;
+}
+
+.login{
+    margin-top: 30px;
+    background-color: #edf4ed;
+}
+
+.login .container{
+    width: 1348px;
+    margin: 0 auto;
+}
+
+.login .container .side{
+    display: inline-block;
+    width: 820px;
+    height: 305px;
+    margin-left: 18px;
+    background: url(../img/16ad990ec23uwn790d4.jpg) no-repeat;
+    background-size: contain;
+    vertical-align: bottom;
+    position: relative;
+}
+.login .container .side .download{
+    position: absolute;
+    width: 152px;
+    height: 80px;
+    right: 0;
+    top: 90px;
+}
+
+.login .container .side .download p{
+    font-size: 25px;
+    color: #111;
+    line-height: 24px;
+    margin-bottom: 35px;
+}
+.login .container .side .download a{
+    display: inline-block;
+    width: 116px;
+    height: 30px;
+    color: white;
+    background-color: #00b51d;
+    line-height: 30px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 1px;
+}
+.login .container .side .download img{
+    width: 30px;
+    vertical-align: bottom;
+    border: 1px solid #00b51d;
+    box-sizing: border-box;
+    border-radius: 1px;
+}
+
