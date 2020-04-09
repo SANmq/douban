@@ -174,7 +174,8 @@
 .login .container .main{
     width: 305px;
     height: 305px;
-    border: 1px solid #111;
     box-sizing: border-box;
     vertical-align: bottom;
+    padding-left: 12px;
+    padding-top: 24px;
 }

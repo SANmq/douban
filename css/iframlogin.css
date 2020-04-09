@@ -1,21 +1,23 @@
-.container{
+.container {
     width: 280px;
     height: 280px;
-    /* background-color: white; */
-}
-.container ul{
-    border-bottom: 1px solid #ececec ; ;
 }
 
-.container ul li{
+.container ul {
+    border-bottom: 1px solid #ececec;
+    ;
+}
+
+.container ul li {
     display: inline-block;
     width: 140px;
-    text-align:center;
-    cursor:pointer;
+    text-align: center;
+    cursor: pointer;
     color: #9b9b9b;
     position: relative;
 }
-.container ul li.select{
+
+.container ul li.select {
     border-bottom: 1px solid #494949;
     font-weight: 600;
     color: #333;
@@ -27,28 +29,114 @@
     margin-top: 10px;
 }
 
-.container .xieyi a{
+.container .xieyi a {
     color: #41ac52;
 }
 
-.container .login input{
+.container .login{
+    position: relative;
+}
+
+.container .login .phonenum{
+    border-right: 1px solid #c7c1be;
+    display: inline-block;
+    width: 51px;
+    height: 26px;
+    color: #ddd;
+    line-height: 26px;
+    cursor: pointer;
+    position: absolute;
+    top:17px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.container .login .phonenum .locanum{
+    display: none;
+}
+
+.container .login input {
     width: 280px;
     height: 32px;
     box-sizing: border-box;
     margin-bottom: 10px;
-
 }
 
-
-.container .login [type="text"]{
+.container .login [type="text"]:nth-child(1){
     margin-top: 14px;
+    padding-left: 53px;
 }
 
-.container .login button{
+.container .login [type="text"]:nth-child(3){
+    text-indent: 6px;
+}
+.container .login .get-check-ma{
+    position: absolute;
+    font-size: 13px;
+    right: 10px;
+    bottom: 60px;
+    color: #41ac52;
+}
+
+.container .login button {
     width: 280px;
     height: 34px;
     border-radius: 2px;
     text-align: center;
     color: white;
     background-color: #97d9a1;
+    margin-bottom: 10px;
+}
+
+.container .bottom {
+    padding-bottom: 14px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.container .bottom input[type="checkbox"] {
+    margin: 0;
+    vertical-align: middle;
+}
+
+.container .bottom span {
+    font-size: 13px;
+    color: #ddd;
+    vertical-align: bottom;
+    user-select: none;
+}
+
+.container .bottom .ma {
+    position: absolute;
+    right: 0;
+    top: 4px;
+    color: #41ac52;
+}
+
+.container .three {
+    color: #9b9b9b;
+    font-size: 11px;
+}
+
+.container [title="weixi"]{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: transparent;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(../img/weixin.png) no-repeat;
+    background-size: cover;
+}
+
+.container [title="weibo"]{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: transparent;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(../img/weibo.png) no-repeat;
+    background-size: cover;
 }

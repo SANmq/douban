@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>豆瓣登录</title>
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/conmon.css">
     <link rel="stylesheet" href="/css/iframlogin.css">
@@ -15,11 +15,38 @@
         </ul>
         <p class="xieyi">请仔细阅读 <a href="">豆瓣使用协议、隐私政策</a></p>
         <form class="login" action="" method="post">
-            <input type="text">
-            <input type="password">
+            <input type="text" maxlength="11" placeholder="手机号">
+            <div class="phonenum">+86
+                <div class="locanum">
+                    <h2></h2>
+                    <ul>
+                        <li>中国</li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <input type="text" maxlength="6" placeholder="验证码">
+            <a class="get-check-ma" href="">获取验证码</a>
             <button>登录豆瓣</button>
         </form>
-
+        <div class="bottom">
+            <label class="autologin">
+                <input type="checkbox" name="autologin" id="next-auto-login">
+                <span>下次自动登录</span>
+            </label>
+            <span class="ma">收不到验证码</span>
+        </div>
+        <span class="three">第三方登录:  </span>
+        <a title="weixi" href="">weixi</a>       
+        <a title="weibo" href="">weibo</a>
     </div>
 </body>
 </html>
