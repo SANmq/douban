@@ -171,3 +171,10 @@
     border-radius: 1px;
 }
 
+.login .container .main{
+    width: 305px;
+    height: 305px;
+    border: 1px solid #111;
+    box-sizing: border-box;
+    vertical-align: bottom;
+}

@@ -1,0 +1,54 @@
+.container{
+    width: 280px;
+    height: 280px;
+    /* background-color: white; */
+}
+.container ul{
+    border-bottom: 1px solid #ececec ; ;
+}
+
+.container ul li{
+    display: inline-block;
+    width: 140px;
+    text-align:center;
+    cursor:pointer;
+    color: #9b9b9b;
+    position: relative;
+}
+.container ul li.select{
+    border-bottom: 1px solid #494949;
+    font-weight: 600;
+    color: #333;
+}
+
+.container .xieyi {
+    font-size: 12px;
+    color: #9b9b9b;
+    margin-top: 10px;
+}
+
+.container .xieyi a{
+    color: #41ac52;
+}
+
+.container .login input{
+    width: 280px;
+    height: 32px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
+}
+
+
+.container .login [type="text"]{
+    margin-top: 14px;
+}
+
+.container .login button{
+    width: 280px;
+    height: 34px;
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+    background-color: #97d9a1;
+}
