@@ -31,8 +31,9 @@ a {
     outline: 0
 }
 a:hover {
-    text-decoration: none
+    text-decoration: none;
 }
+
 
 button{
     border: none;
