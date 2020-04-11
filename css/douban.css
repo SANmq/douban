@@ -206,10 +206,6 @@
     color: #3377aa;
 }
 
-/* .fenqu .hotspot-content .container{
-    float: left;
-} */
-
 .fenqu .hotspot-content .container .main {
     text-align: justify;
     width: 350px;
@@ -310,14 +306,66 @@
     font-size: 13px;
 }
 
-.fenqu .side-side h2{
+.fenqu .side-side h2 {
     color: #007722;
     padding-top: 10px;
 }
 
-.fenqu .side-side h2 a{
+.fenqu .side-side h2 a {
     color: #3377aa;
     font-size: 12px;
 }
 
+.out:nth-child(2n) {
+    background-color: #f7f7f7;
+}
 
+.out .fenqu .side-time {
+    float: left;
+    width: 120px;
+}
+
+.out .fenqu .side-time h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.out .fenqu .main h3 {
+    color: #007722;
+    padding-top: 7px;
+}
+
+.out .fenqu .main h3 a {
+    font-size: 12px;
+    color: #3377aa;
+}
+
+.out .fenqu .main {
+    margin-left: 120px;
+}
+
+.out .fenqu .main ul {
+    text-align: justify;
+    width: 753px;
+}
+
+.out .fenqu .main ul::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+.out .fenqu .main ul li {
+    display: inline-block;
+    width: 130px;
+}
+
+.out .fenqu .main ul li .img-title {
+    text-align: center;
+    display: block;
+}
+
+.out .fenqu .main ul li .beizhu {
+    display: block;
+    text-align: center;
+}
