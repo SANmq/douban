@@ -30,6 +30,17 @@ a {
     text-decoration: none;
     outline: 0
 }
+
+a:link{
+    color: #3377aa;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #669;
+    text-decoration: none;
+}
+
 a:hover {
     text-decoration: none;
 }

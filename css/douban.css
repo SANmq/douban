@@ -183,189 +183,85 @@
     padding-top: 24px;
 }
 
-.fenqu {
+.out-container{
     width: 1348px;
-    margin: 0 auto;
-    margin-top: 38px;
-    padding-left: 200px;
-    box-sizing: border-box;
 }
 
-.fenqu .hotspot-content {
+.out-container:nth-child(2n){
+    background-color:#f7f7f7;
+}
+
+.in-container{
+    width: 950px;
+    margin-left:200px;
+}
+
+.in-container h2{
+    color:#007722;
+    font-size:15px;
+}
+
+.left{
     float: left;
 }
 
-.fenqu .hotspot-content .title {
-    color: #072;
-    font-size: 15px;
-    margin-bottom: 10px;
+.right{
+    float: right;
 }
 
-.fenqu .hotspot-content .title a {
-    font-size: 12px;
-    color: #3377aa;
+.no-title{
+    padding-top: 36px;
 }
 
-.fenqu .hotspot-content .container .main {
-    text-align: justify;
-    width: 350px;
+.no-title .left .albums ul li{
     float: left;
-}
-
-.fenqu .hotspot-content .container .main::after {
-    content: "";
-    display: inline-block;
-    width: 100%;
-}
-
-.fenqu .hotspot-content .container .main .demo {
-    position: relative;
-    display: inline-block;
-    margin-bottom: 30px;
-}
-
-.fenqu .hotspot-content .container .main .demo img {
-    display: inline-block;
     width: 170px;
-    height: 170px;
+    margin-right:10px;
+    margin-bottom:10px;
+    
 }
 
-.fenqu .hotspot-content .container .main .demo .pho-name {
-    position: absolute;
-    top: 170px;
-    left: 0;
-    overflow: hidden;
-    font-size: 12px;
-    color: #3377aa;
+.no-title .left .albums ul{
+    width: 360px;
+
 }
 
-.fenqu .hotspot-content .container .main .demo .pho-name .pho-num {
-    color: #999999;
-}
-
-.fenqu .hotspot-content .container .side {
-    width: 270px;
-    margin-left: 370px;
-}
-
-.fenqu .hotspot-content .container .side ul {
+.no-title a{
     font-size: 12px;
 }
 
-.fenqu .hotspot-content .container .side ul li {
-    margin-top: 12px;
-}
-
-.fenqu .hotspot-content .container .side ul li a {
-    color: #3377aa;
-}
-
-.fenqu .hotspot-content .container .side ul li a:hover {
+.no-title a:hover{
     color: white;
-    background-color: #3377aa;
+    background-color:#3377aa
 }
 
-.fenqu .hotspot-content .container .side ul li a:visited {
-    color: #666699;
+.extra{
+    font-size:12px;
+    color:#999;
 }
 
-.fenqu .hotspot-content .container .side .first {
-    line-height: 20px;
-    margin-top: 0;
-}
-
-.fenqu .hotspot-content .container .side .first .author {
-    color: #999999;
-}
-
-.fenqu .hotspot-content .container .side .first p {
-    color: #666666;
-}
-
-.fenqu .side-side {
-    width: 220px;
-    margin-left: 650px;
-}
-
-.fenqu .side-side ul li {
-    margin-top: 14px;
-    font-size: 14px;
-}
-
-.fenqu .side-side ul li a {
-    color: #3377aa;
-}
-
-.fenqu .side-side ul li a:hover {
-    background-color: #3377aa;
-    color: white;
-}
-
-.fenqu .side-side ul p {
-    color: #aaaaaa;
-    font-size: 13px;
-}
-
-.fenqu .side-side h2 {
-    color: #007722;
-    padding-top: 10px;
-}
-
-.fenqu .side-side h2 a {
-    color: #3377aa;
+.no-title .left .notes{
+    margin-left:20px;
+    color:#666;
     font-size: 12px;
 }
 
-.out:nth-child(2n) {
-    background-color: #f7f7f7;
+.no-title .left .notes ul li{
+    width: 264px;
+    margin-bottom: 12px;
+    line-height: 1.62;
 }
 
-.out .fenqu .side-time {
-    float: left;
-    width: 120px;
+.no-title .right ul{
+    margin-top:10px;
 }
 
-.out .fenqu .side-time h2 {
-    font-size: 24px;
-    font-weight: 600;
+.no-title .right ul li{
+    width: 265px;
+    margin-top:10px;
+    line-height: 1.62;
 }
 
-.out .fenqu .main h3 {
-    color: #007722;
-    padding-top: 7px;
-}
-
-.out .fenqu .main h3 a {
-    font-size: 12px;
-    color: #3377aa;
-}
-
-.out .fenqu .main {
-    margin-left: 120px;
-}
-
-.out .fenqu .main ul {
-    text-align: justify;
-    width: 753px;
-}
-
-.out .fenqu .main ul::after {
-    content: "";
-    display: inline-block;
-    width: 100%;
-}
-
-.out .fenqu .main ul li {
-    display: inline-block;
-    width: 130px;
-}
-
-.out .fenqu .main ul li .img-title {
-    text-align: center;
-    display: block;
-}
-
-.out .fenqu .main ul li .beizhu {
-    display: block;
-    text-align: center;
+.no-title .left h2{
+    margin-bottom:15px;
 }

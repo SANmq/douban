@@ -1,0 +1,375 @@
+ <div class="out">
+        <div class="fenqu clearfix">
+            <div class="hotspot-content clearfix">
+                <h2 class="title">热点内容······<a href="">(更多)</a></h2>
+                <div class="container clearfix">
+                    <div class="main">
+                        <div class="demo">
+                            <img src="img/p2336837928.webp" alt=""><a class="pho-name">玩毛球 <span class="pho-num">共有照片xxx张</span></a>
+                        </div>
+                        <div class="demo">
+                            <img src="img/p2336837928.webp" alt=""><a class="pho-name">玩毛球 <span class="pho-num">共有照片xxx张</span></a>
+                        </div>
+                        <div class="demo">
+                            <img src="img/p2336837928.webp" alt=""><a class="pho-name">玩毛球 <span class="pho-num">共有照片xxx张</span></a>
+                        </div>
+                        <div class="demo">
+                            <img src="img/p2336837928.webp" alt=""><a class="pho-name">玩毛球 <span class="pho-num">共有照片xxx张</span></a>
+                        </div>
+                    </div>
+                    <div class="side">
+                        <ul>
+                            <li class="first">
+                                <a href="">Lorem ipsum dolor sit amet.</a>
+                                <div class="author">雲若小翠的日记</div>
+                                <p>先讲一个小故事。 我在疫区中心坐牢已经快三个月了，截至写作时间为止小区都还是封...</p>
+                            </li>
+                            <li><a href="https://www.baidu.com">Lorem ipsum dolor sit amet.</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                        </ul>
+    
+                    </div>
+                </div>
+            </div>
+            <div class="side-side">
+                <h2>热门话题 ······ (<a href="">话题广场</a>)</h2>
+                <ul>
+                    <li><a href="">Lorem ipsum dolor sit amet.</a>
+                    <p>品牌话题 · 6319次浏览</p>
+                    </li>
+                    <li><a href="">Lorem ipsum dolor sit amet.</a>
+                        <p>品牌话题 · 6319次浏览</p></li>
+                    <li><a href="">Lorem ipsum dolor sit amet.</a>
+                        <p>品牌话题 · 6319次浏览</p>
+                    </li>
+                    <li><a href="">Lorem ipsum dolor sit amet.</a>
+                        <p>品牌话题 · 6319次浏览</p>
+                    </li>
+                    <li><a href="">Lorem ipsum dolor sit amet.</a>
+                        <p>品牌话题 · 6319次浏览</p>
+                    </li>
+                    <li><a href="">Lorem ipsum dolor sit amet.</a>
+                        <p>品牌话题 · 6319次浏览</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="out">
+        <div class="fenqu clearfix">
+            <div class="side-time">
+                <h2>豆瓣时间</h2>
+            </div>
+            <div class="main">
+                <h3>热门专栏 ······· (<a href="">更多</a>)</h3>
+                <ul>
+                    <li>
+                        <a class="img" href="">
+                            <img src="" alt="">
+                        </a>
+                        <a class="img-title" href="">
+                            这是一个标题
+                        </a>
+                        <span class="beizhu">
+                            xx专栏
+                        </span>
+                    </li>
+                    <li>
+                        <a class="img" href="">
+                            <img src="" alt="">
+                        </a>
+                        <a class="img-title" href="">
+                            这是一个标题
+                        </a>
+                        <span class="beizhu">
+                            xx专栏
+                        </span>
+                    </li>
+                    <li>
+                        <a class="img" href="">
+                            <img src="" alt="">
+                        </a>
+                        <a class="img-title" href="">
+                            这是一个标题
+                        </a>
+                        <span class="beizhu">
+                            xx专栏
+                        </span>
+                    </li>
+                    <li>
+                        <a class="img" href="">
+                            <img src="" alt="">
+                        </a>
+                        <a class="img-title" href="">
+                            这是一个标题
+                        </a>
+                        <span class="beizhu">
+                            xx专栏
+                        </span>
+                    </li>
+                    <li>
+                        <a class="img" href="">
+                            <img src="" alt="">
+                        </a>
+                        <a class="img-title" href="">
+                            这是一个标题
+                        </a>
+                        <span class="beizhu">
+                            xx专栏
+                        </span>
+                    </li>
+                    <li>
+                        <a class="img" href="">
+                            <img src="" alt="">
+                        </a>
+                        <a class="img-title" href="">
+                            这是一个标题
+                        </a>
+                        <span class="beizhu">
+                            xx专栏
+                        </span>
+                    </li>
+                    <li>
+                        <a class="img" href="">
+                            <img src="" alt="">
+                        </a>
+                        <a class="img-title" href="">
+                            这是一个标题
+                        </a>
+                        <span class="beizhu">
+                            xx专栏
+                        </span>
+                    </li>
+                    <li>
+                        <a class="img" href="">
+                            <img src="" alt="">
+                        </a>
+                        <a class="img-title" href="">
+                            这是一个标题
+                        </a>
+                        <span class="beizhu">
+                            xx专栏
+                        </span>
+                    </li>
+                    <li>
+                        <a class="img" href="">
+                            <img src="" alt="">
+                        </a>
+                        <a class="img-title" href="">
+                            这是一个标题
+                        </a>
+                        <span class="beizhu">
+                            xx专栏
+                        </span>
+                    </li>
+                    <li>
+                        <a class="img" href="">
+                            <img src="" alt="">
+                        </a>
+                        <a class="img-title" href="">
+                            这是一个标题
+                        </a>
+                        <span class="beizhu">
+                            xx专栏
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+.fenqu {
+    width: 1348px;
+    margin: 0 auto;
+    margin-top: 38px;
+    padding-left: 200px;
+    box-sizing: border-box;
+}
+
+.fenqu .hotspot-content {
+    float: left;
+}
+
+.fenqu .hotspot-content .title {
+    color: #072;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.fenqu .hotspot-content .title a {
+    font-size: 12px;
+    color: #3377aa;
+}
+
+.fenqu .hotspot-content .container .main {
+    text-align: justify;
+    width: 350px;
+    float: left;
+}
+
+.fenqu .hotspot-content .container .main::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+.fenqu .hotspot-content .container .main .demo {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.fenqu .hotspot-content .container .main .demo img {
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+}
+
+.fenqu .hotspot-content .container .main .demo .pho-name {
+    position: absolute;
+    top: 170px;
+    left: 0;
+    overflow: hidden;
+    font-size: 12px;
+    color: #3377aa;
+}
+
+.fenqu .hotspot-content .container .main .demo .pho-name .pho-num {
+    color: #999999;
+}
+
+.fenqu .hotspot-content .container .side {
+    width: 270px;
+    margin-left: 370px;
+}
+
+.fenqu .hotspot-content .container .side ul {
+    font-size: 12px;
+}
+
+.fenqu .hotspot-content .container .side ul li {
+    margin-top: 12px;
+}
+
+.fenqu .hotspot-content .container .side ul li a {
+    color: #3377aa;
+}
+
+.fenqu .hotspot-content .container .side ul li a:hover {
+    color: white;
+    background-color: #3377aa;
+}
+
+.fenqu .hotspot-content .container .side ul li a:visited {
+    color: #666699;
+}
+
+.fenqu .hotspot-content .container .side .first {
+    line-height: 20px;
+    margin-top: 0;
+}
+
+.fenqu .hotspot-content .container .side .first .author {
+    color: #999999;
+}
+
+.fenqu .hotspot-content .container .side .first p {
+    color: #666666;
+}
+
+.fenqu .side-side {
+    width: 220px;
+    margin-left: 650px;
+}
+
+.fenqu .side-side ul li {
+    margin-top: 14px;
+    font-size: 14px;
+}
+
+.fenqu .side-side ul li a {
+    color: #3377aa;
+}
+
+.fenqu .side-side ul li a:hover {
+    background-color: #3377aa;
+    color: white;
+}
+
+.fenqu .side-side ul p {
+    color: #aaaaaa;
+    font-size: 13px;
+}
+
+.fenqu .side-side h2 {
+    color: #007722;
+    padding-top: 10px;
+}
+
+.fenqu .side-side h2 a {
+    color: #3377aa;
+    font-size: 12px;
+}
+
+.out:nth-child(2n) {
+    background-color: #f7f7f7;
+}
+
+.out .fenqu .side-time {
+    float: left;
+    width: 120px;
+}
+
+.out .fenqu .side-time h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.out .fenqu .main h3 {
+    color: #007722;
+    padding-top: 7px;
+}
+
+.out .fenqu .main h3 a {
+    font-size: 12px;
+    color: #3377aa;
+}
+
+.out .fenqu .main {
+    margin-left: 120px;
+}
+
+.out .fenqu .main ul {
+    text-align: justify;
+    width: 753px;
+}
+
+.out .fenqu .main ul::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+.out .fenqu .main ul li {
+    display: inline-block;
+    width: 130px;
+}
+
+.out .fenqu .main ul li .img-title {
+    text-align: center;
+    display: block;
+}
+
+.out .fenqu .main ul li .beizhu {
+    display: block;
+    text-align: center;
+}
