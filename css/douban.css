@@ -184,8 +184,7 @@
 }
 
 .out-container {
-    width: 1348px;
-    margin: 0 auto;
+    padding: 35px 0;
 }
 
 .out-container:nth-child(2n) {
@@ -194,12 +193,14 @@
 
 .in-container {
     width: 950px;
-    margin-left: 200px;
+    margin: 0 auto;
 }
 
 .in-container h2 {
     color: #007722;
     font-size: 15px;
+    margin-bottom: 15px;
+    font-weight: 400;
 }
 
 .left {
@@ -265,10 +266,6 @@
     margin-bottom: 15px;
 }
 
-/* .time .left{
-    height: 999px;
-} */
-
 .time .left h1 a {
     font-size: 24px;
 }
@@ -277,20 +274,20 @@
     color: #494949
 }
 
-.time .right{
+.time .right {
     width: 836px;
     margin-top: 4px;
 }
 
-.time .right ul li{
+.time .right ul li {
     float: left;
     width: 100px;
     margin-right: 63px;
-    text-align:center;
+    text-align: center;
     margin-bottom: 30px;
 }
 
-.time .right ul li a.img{
+.time .right ul li a.img {
     display: block;
     background: url(../img/eb08fc6c-7348-11ea-afb6-5a5bcc9605bf.jpg);
     width: 100px;
@@ -298,21 +295,149 @@
     position: relative;
 }
 
-.time .right ul li a.img::after{
+.time .right ul li a.img::after {
     content: "";
     position: absolute;
     background: url(../img/ic_audio_w@2x.png) center/14px no-repeat;
     width: 12px;
     height: 12px;
-    bottom:10px;
-    right:10px;
+    bottom: 10px;
+    right: 10px;
 }
 
-.time .right ul li a{
+.time .right ul li a {
     display: block;
-    color:#333;
-    font-size:13px;
-    line-height:1.38;
+    color: #333;
+    font-size: 13px;
+    line-height: 1.38;
     margin-bottom: 10px;
 }
 
+.movie .left {
+    width: 120px;
+}
+
+.movie .left h1 a {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.movie .left h1 {
+    margin-bottom: 10px;
+}
+
+.movie .left a {
+    font-size: 14px;
+}
+
+.movie .left a:link {
+    color: #27a;
+}
+
+.movie .left a:visited {
+    color: #27a;
+}
+
+.movie .left ul li {
+    margin-bottom: 10px;
+}
+
+.movie .playing {
+    float: left;
+    width: 530px;
+    margin-top: 7px;
+}
+
+.movie .playing ul li {
+    float: left;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-right: 33px;
+}
+
+.movie .playing ul {
+    margin-left: 16px;
+}
+
+.movie .playing ul li:nth-of-type(4n) {
+    margin-right: 0;
+}
+
+.movie .playing ul li img {
+    width: 100px;
+    vertical-align: bottom;
+}
+
+.movie .playing ul li a:nth-child(2) {
+    display: block;
+    max-width: 90px;
+    color: #333;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin: 5px auto;
+}
+
+.movie .playing ul li .score-star .star {
+    display: inline-block;
+    width: 55px;
+    height: 11px;
+    background: url(../img/ic_rating_s.png) no-repeat;
+    background-position-y: -11px;
+}
+
+.movie .playing ul li .score-star .score {
+    color: #e09015;
+    text-indent: 4px;
+    font-size: 12px;
+}
+
+.movie .playing ul li a.but {
+    display: block;
+    width: 68px;
+    height: 23px;
+    margin: 0 auto;
+    background-color: #1c8db0;
+    border-radius: 2px;
+    color: white;
+    margin-top: 8px;
+}
+
+.movie .playing ul li a.but:hover {
+    background-color: #047fcb;
+}
+
+.movie .right .fenlei{
+    width: 260px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.movie .right .fenlei ul li{
+    float: left;
+    width: 52px;
+}
+
+.movie .right .fenlei ul li a{
+    font-size: 12px;
+    
+}
+
+.movie .right .remen ol li{
+    list-style-type:decimal;
+    list-style-position:inside;
+    font-size: 12px;
+    height: 19px;
+    padding-bottom: 5px;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.movie .right .remen ol li a{
+    color: #2277aa;
+    font-size: 12px;
+    margin-left: 2px;
+}
