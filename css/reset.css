@@ -42,6 +42,8 @@ a:visited{
 }
 
 a:hover {
+    color: white;
+    background-color:#3377aa;
     text-decoration: none;
 }
 

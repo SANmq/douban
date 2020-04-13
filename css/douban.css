@@ -183,85 +183,136 @@
     padding-top: 24px;
 }
 
-.out-container{
+.out-container {
     width: 1348px;
+    margin: 0 auto;
 }
 
-.out-container:nth-child(2n){
-    background-color:#f7f7f7;
+.out-container:nth-child(2n) {
+    background-color: #f7f7f7;
 }
 
-.in-container{
+.in-container {
     width: 950px;
-    margin-left:200px;
+    margin-left: 200px;
 }
 
-.in-container h2{
-    color:#007722;
-    font-size:15px;
+.in-container h2 {
+    color: #007722;
+    font-size: 15px;
 }
 
-.left{
+.left {
     float: left;
 }
 
-.right{
+.right {
     float: right;
 }
 
-.no-title{
+.no-title {
     padding-top: 36px;
 }
 
-.no-title .left .albums ul li{
+.no-title .left .albums ul li {
     float: left;
     width: 170px;
-    margin-right:10px;
-    margin-bottom:10px;
-    
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
-.no-title .left .albums ul{
+.no-title .left .albums ul {
     width: 360px;
-
 }
 
-.no-title a{
+.no-title a {
     font-size: 12px;
 }
 
-.no-title a:hover{
+.no-title a:hover {
     color: white;
-    background-color:#3377aa
+    background-color: #3377aa;
 }
 
-.extra{
-    font-size:12px;
-    color:#999;
+.extra {
+    font-size: 12px;
+    color: #999;
 }
 
-.no-title .left .notes{
-    margin-left:20px;
-    color:#666;
+.no-title .left .notes {
+    margin-left: 20px;
+    color: #666;
     font-size: 12px;
 }
 
-.no-title .left .notes ul li{
+.no-title .left .notes ul li {
     width: 264px;
     margin-bottom: 12px;
     line-height: 1.62;
 }
 
-.no-title .right ul{
-    margin-top:10px;
+.no-title .right ul {
+    margin-top: 10px;
 }
 
-.no-title .right ul li{
+.no-title .right ul li {
     width: 265px;
-    margin-top:10px;
+    margin-top: 10px;
     line-height: 1.62;
 }
 
-.no-title .left h2{
-    margin-bottom:15px;
+.no-title .left h2 {
+    margin-bottom: 15px;
 }
+
+/* .time .left{
+    height: 999px;
+} */
+
+.time .left h1 a {
+    font-size: 24px;
+}
+
+.time .left h1 a:visited {
+    color: #494949
+}
+
+.time .right{
+    width: 836px;
+    margin-top: 4px;
+}
+
+.time .right ul li{
+    float: left;
+    width: 100px;
+    margin-right: 63px;
+    text-align:center;
+    margin-bottom: 30px;
+}
+
+.time .right ul li a.img{
+    display: block;
+    background: url(../img/eb08fc6c-7348-11ea-afb6-5a5bcc9605bf.jpg);
+    width: 100px;
+    height: 141px;
+    position: relative;
+}
+
+.time .right ul li a.img::after{
+    content: "";
+    position: absolute;
+    background: url(../img/ic_audio_w@2x.png) center/14px no-repeat;
+    width: 12px;
+    height: 12px;
+    bottom:10px;
+    right:10px;
+}
+
+.time .right ul li a{
+    display: block;
+    color:#333;
+    font-size:13px;
+    line-height:1.38;
+    margin-bottom: 10px;
+}
+
