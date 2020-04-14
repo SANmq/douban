@@ -410,25 +410,24 @@
     background-color: #047fcb;
 }
 
-.movie .right .fenlei{
+.movie .right .fenlei {
     width: 260px;
     margin-top: 10px;
     margin-bottom: 35px;
 }
 
-.movie .right .fenlei ul li{
+.movie .right .fenlei ul li {
     float: left;
     width: 52px;
 }
 
-.movie .right .fenlei ul li a{
+.movie .right .fenlei ul li a {
     font-size: 12px;
-    
 }
 
-.movie .right .remen ol li{
-    list-style-type:decimal;
-    list-style-position:inside;
+.movie .right .remen ol li {
+    list-style-type: decimal;
+    list-style-position: inside;
     font-size: 12px;
     height: 19px;
     padding-bottom: 5px;
@@ -436,8 +435,94 @@
     border-bottom: 1px solid #eaeaea;
 }
 
-.movie .right .remen ol li a{
+.movie .right .remen ol li a {
     color: #2277aa;
     font-size: 12px;
     margin-left: 2px;
+}
+
+.group .left {
+    width: 120px;
+}
+
+.group .left a{
+    font-size: 14px;
+}
+
+.group .left ul li{
+    margin: 10px 0;
+}
+
+.group .left h1 a {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.group .left h1 {
+    margin-bottom: 10px;
+}
+
+.group a:link {
+    color: #007982;
+}
+
+.group a:visited {
+    color: #007982;
+}
+
+.group .hotgroup{
+    float: left;
+    width: 530px;
+    margin-top: 7px;
+}
+
+.group .hotgroup ul li img {
+    vertical-align: bottom;
+}
+
+.group .hotgroup ul li{
+    position: relative;
+    float: left;
+    width: 250px;
+    margin-bottom: 40px;
+}
+
+.group .hotgroup ul li a{
+    font-size: 13px;
+}
+
+.group .hotgroup ul li a:nth-of-type(2){
+    position: absolute;
+    left: 65px;
+    top: 4px;
+}
+
+.group .hotgroup ul li span{
+    margin-left: 12px;
+}
+
+.group .right{
+    width: 265px;
+    margin-top: 7px;
+}
+
+.group .right ul li a{
+    display: inline-block;
+    width: 37px;
+    font-size: 12px;
+}
+
+.group .right ul li a:nth-of-type(7n){
+    margin: 0;
+}
+
+.group .right ul li h3{
+    margin-top: 7px;
+}
+
+.group .right ul li h3 a{
+    display: block;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
 }
