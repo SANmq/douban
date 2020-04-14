@@ -445,11 +445,11 @@
     width: 120px;
 }
 
-.group .left a{
+.group .left a {
     font-size: 14px;
 }
 
-.group .left ul li{
+.group .left ul li {
     margin: 10px 0;
 }
 
@@ -470,7 +470,7 @@
     color: #007982;
 }
 
-.group .hotgroup{
+.group .hotgroup {
     float: left;
     width: 530px;
     margin-top: 7px;
@@ -480,49 +480,140 @@
     vertical-align: bottom;
 }
 
-.group .hotgroup ul li{
+.group .hotgroup ul li {
     position: relative;
     float: left;
     width: 250px;
     margin-bottom: 40px;
 }
 
-.group .hotgroup ul li a{
+.group .hotgroup ul li a {
     font-size: 13px;
 }
 
-.group .hotgroup ul li a:nth-of-type(2){
+.group .hotgroup ul li a:nth-of-type(2) {
     position: absolute;
     left: 65px;
     top: 4px;
 }
 
-.group .hotgroup ul li span{
+.group .hotgroup ul li span {
     margin-left: 12px;
 }
 
-.group .right{
-    width: 265px;
+.group .right {
+    width: 280px;
     margin-top: 7px;
 }
 
-.group .right ul li a{
+.group .right ul li a {
     display: inline-block;
-    width: 37px;
+    width: 36px;
     font-size: 12px;
 }
 
-.group .right ul li a:nth-of-type(7n){
+.group .right ul li a:nth-of-type(7n) {
     margin: 0;
+    width: 30px;
 }
 
-.group .right ul li h3{
+.group .right ul li h3 {
     margin-top: 7px;
 }
 
-.group .right ul li h3 a{
+.group .right ul li h3 a {
     display: block;
     font-size: 14px;
     color: #333;
     font-weight: 400;
+}
+
+.book a:link {
+    color: #614e3c;
+}
+
+.book a:visited {
+    color: #614e3c;
+}
+
+h1 a {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.book .left ul li {
+    margin: 10px 0;
+}
+
+.book .left {
+    width: 120px;
+}
+
+.book .left ul li a {
+    font-size: 14px;
+}
+
+.book .left ul li:nth-of-type(2) a{
+    background: url(../img/new_menu.gif) no-repeat 100% 100%;
+    background-position-y:5px;
+    background-position-x:28px ;
+    display: inline-block;
+    width: 48px;
+}
+
+.book .left ul li [title="douban-reading"] {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url(../img/app_icons_50_10.jpg) no-repeat;
+}
+
+.book .newbook {
+    float: left;
+    width: 530px;
+}
+
+.book .newbook ul li {
+    float: left;
+    width: 100px;
+    margin-right: 32px;
+    text-align: center;
+}
+
+.book .newbook ul li img {
+    width: 100px;
+    vertical-align: bottom;
+}
+
+.book .newbook .but {
+    display: block;
+    width: 68px;
+    text-align: center;
+    background-color: #999a95;
+    color: white;
+    border-radius: 2px;
+    height: 23px;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 23px;
+}
+
+.book .newbook ul li a:nth-of-type(2) {
+    display: block;
+    color: #333;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin: 5px auto;
+}
+
+.book .newbook ul li .author {
+    font-size: 12px;
+    margin: 7px 0;
+}
+
+.book .newbook ul {
+    margin-bottom: 20px;
 }
