@@ -553,10 +553,10 @@ h1 a {
     font-size: 14px;
 }
 
-.book .left ul li:nth-of-type(2) a{
+.book .left ul li:nth-of-type(2) a {
     background: url(../img/new_menu.gif) no-repeat 100% 100%;
-    background-position-y:5px;
-    background-position-x:28px ;
+    background-position-y: 5px;
+    background-position-x: 28px;
     display: inline-block;
     width: 48px;
 }
@@ -616,4 +616,104 @@ h1 a {
 
 .book .newbook ul {
     margin-bottom: 20px;
+}
+
+.book .right {
+    width: 300px;
+}
+
+.book .right ul li {
+    width: 265px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.book .right ul li span {
+    margin-right: 10px;
+}
+
+.book .right ul li a {
+    margin-right: 8px;
+    font-size: 12px;
+}
+
+.music .left a {
+    color: #555d53;
+}
+
+.music .left h1 a {
+    color: #f38c00;
+}
+
+.music .left ul li {
+    margin: 10px 0;
+}
+
+.music .left {
+    width: 120px;
+}
+
+.music .left ul li a {
+    font-size: 14px;
+}
+
+.music .left ul li [title="douban-FM"] {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url(../img/app_icons_50_10.jpg) no-repeat;
+    background-position-x: -250px;
+}
+
+.music .left ul li [title="douban-musician"] {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url(../img/app_icons_50_10.jpg) no-repeat;
+    background-position-x: -48px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.music .hotmusic {
+    float: left;
+    width: 530px;
+}
+
+.music .hotmusic ul li {
+    float: left;
+    width: 120px;
+    margin-bottom: 40px;
+}
+
+.music .hotmusic ul li a {
+    /* display: block; */
+    margin: 0 auto;
+    font-size: 13px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.music .hotmusic ul li a:nth-of-type(1) {
+    width: 80px;
+    position: relative;
+}
+
+.music .hotmusic ul li a:nth-of-type(1) ::after{
+    position: absolute;
+    content: "";
+    width: 44px;
+    height: 44px;
+    /* background: url(../img/); */
+    background-color: aqua;
+}
+
+.music .hotmusic ul li img {
+    width: 80px;
+    vertical-align: bottom;
 }
